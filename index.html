@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasker</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+    rel="stylesheet"
+    type="text/css">
+    <link href="style.css"
+            type="text/css"
+            rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <p>
+            <label for="new-task">Add Task</label>
+            <input id="new-task" type="text">
+            <button id="add-task">Add Task</button>
+        </p>
+        
+        <h3>Tasks</h3>
+        <ul id="incomplete-tasks">
+            <li>
+                <input type="checkbox">
+                <label>Hacer ejercicio</label>
+            </li>
+            <li>
+                <input type="checkbox">
+                <label>Comprar mas cursos de Benjamin</label>
+            </li>
+        </ul>
+        <h3>completed</h3>
+        <ul id="completed-tasks">
+            <li>
+                <input type="checkbox">
+                <label>Comprar curso de TypeScript</label>
+            </li>
+            <li>
+                <input type="checkbox">
+                <label>Ver rosa de guadalupe</label>
+            </li>
+        </ul>
+
+
+    </div>
+    
+
+<script src="app.js"></script>
+</body>
+</html>
